@@ -52,5 +52,5 @@ func PatchWriter(w io.Writer, rows []Table) (err error) {
 			return
 		}
 	}
-	return
+	return nil
 }

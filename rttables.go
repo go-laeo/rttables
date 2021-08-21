@@ -1,4 +1,4 @@
-// Package rttables uses to parse `/etc/iproute2/rt_tables` and change it.
+// Package rttables uses manipulate `/etc/iproute2/rt_tables`.
 package rttables
 
 import (

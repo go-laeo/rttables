@@ -1,6 +1,6 @@
 # rttables
 
-Package rttables use to parse and change `/etc/iproute2/rt_tables` .
+Package rttables uses manipulate `/etc/iproute2/rt_tables` .
 
 Recently i'm writing a robot software, it controls Ethernet and mobile network interfaces. Its function is to ensure that the Ethernet interface is the default route. When the Ethernet cannot connect to the internet, it switch the default route to mobile network.
 
