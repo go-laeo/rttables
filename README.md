@@ -1,6 +1,6 @@
 # rttables
 
-![build.yaml](https://github.com/laeo/go-rttables/actions/workflows/build.yaml/badge.svg) [![Go Reference](https://pkg.go.dev/badge/github.com/laeo/go-rttables.svg)](https://pkg.go.dev/github.com/laeo/go-rttables) ![golangci.yaml](https://github.com/laeo/go-rttables/actions/workflows/golangci-lint.yaml/badge.svg)
+![build.yaml](https://github.com/go-laeo/rttables/actions/workflows/build.yaml/badge.svg) [![Go Reference](https://pkg.go.dev/badge/github.com/go-laeo/rttables.svg)](https://pkg.go.dev/github.com/go-laeo/rttables) ![golangci.yaml](https://github.com/go-laeo/rttables/actions/workflows/golangci-lint.yaml/badge.svg)
 
 Package rttables uses manipulate `/etc/iproute2/rt_tables` .
 
@@ -13,7 +13,7 @@ That's why i created this package, it would use to ensure the user-defined routi
 ## Install
 
 ```shell
-go get github.com/laeo/go-rttables
+go get github.com/go-laeo/rttables
 ```
 
 ## Example
